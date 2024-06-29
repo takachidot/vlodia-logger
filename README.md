@@ -24,6 +24,8 @@ logger.warn("This is a warning message.");
 logger.error("This is an error message.");
 logger.success("This is a success message.");
 ```
+![Termianl](https://cdn.discordapp.com/attachments/1254740352515178557/1256533925354934312/image.png?ex=66811de9&is=667fcc69&hm=3c84b7c0994d2ea68ec17bd7145754a9650ffc8382bb38e0351a5a2c2dcd70fd&)
+
 ## Log Levels
 * log(message: string): General log messages.
 * info(message: string): Information messages.
