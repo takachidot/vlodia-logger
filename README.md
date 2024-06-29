@@ -43,6 +43,7 @@ const logger = new Logger('APP:')
 app.get("/", (req, res) => res.send("Express"));
 
 app.listen(3000, () => {
+    logger.info("Starting in port 3000)
     logger.success("Connected succesfully")
 });
 
