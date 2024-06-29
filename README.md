@@ -47,7 +47,7 @@ app.listen(3000, () => {
 module.exports = app;
 ```
 * It will look like this in the terminal
-![Terminal](https://cdn.discordapp.com/attachments/1254740352515178557/1256532463031685150/image.png?ex=66811c8c&is=667fcb0c&hm=19cda13e119c2e30f39781d58baedfc3c1be4b1999a1aa740c0437891feb2d18&)
+[Terminal](https://cdn.discordapp.com/attachments/1254740352515178557/1256532463031685150/image.png?ex=66811c8c&is=667fcb0c&hm=19cda13e119c2e30f39781d58baedfc3c1be4b1999a1aa740c0437891feb2d18&)
 
 ## Contributing
 * This module is open source. You can contribute by adding new features or fixing bugs and sending a pull request to the GitHub repository.
