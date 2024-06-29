@@ -11,8 +11,8 @@ npm install @vlodia/logger
 yarn add @vlodia/logger
 ```
 ## Usage
-```typescript
-import { Logger } from "@vlodia/logger";
+```javascript
+const { Logger } = require("@vlodia/logger");
 
 // Create an instance of Logger
 const logger = new Logger("MyApp");
@@ -33,15 +33,22 @@ logger.success("This is a success message.");
 * Log messages are printed to the console with timestamp and a custom prefix in colorful format.
 
 ## Example
-```typescript
-import { Logger } from "@vlodia/logger";
+```javascript
+const express = require("express");
+const app = express();
+const { Logger } = require('@vlodia/logger');
+const logger = new Logger('APP:')
+app.get("/", (req, res) => res.send("Express"));
 
-const logger = new Logger("MyApp");
+app.listen(3000, () => {
+    logger.success("Connected succesfully")
+});
 
-logger.log("Starting the application...");
-logger.info("Connecting to the database...");
-logger.error("Database connection error!");
+module.exports = app;
 ```
+* It will look like this in the terminal
+![Terminal](https://cdn.discordapp.com/attachments/1254740352515178557/1256532463031685150/image.png?ex=66811c8c&is=667fcb0c&hm=19cda13e119c2e30f39781d58baedfc3c1be4b1999a1aa740c0437891feb2d18&)
+
 ## Contributing
 * This module is open source. You can contribute by adding new features or fixing bugs and sending a pull request to the GitHub repository.
 

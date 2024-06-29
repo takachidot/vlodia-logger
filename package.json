@@ -1,14 +1,13 @@
 {
   "name": "@vlodia/logger",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A simple logger module for your node application's.",
   "main": "dist",
-  "type": "module",
   "repository": "git+https://github.com/takachidot/vlodia-logger.git",
   "keywords": [
     "Takachi",
     "Yahya",
-    "chi",
+    "vlodia",
     "Logger"
   ],
   "author": {
@@ -22,7 +21,7 @@
   "homepage": "https://github.com/takachidot/vlodia-logger#readme",
   "private": false,
   "dependencies": {
-    "chalk": "^5.3.0"
+    "chalk": "^4.1.2"
   },
   "publishConfig": {
     "access": "public"
